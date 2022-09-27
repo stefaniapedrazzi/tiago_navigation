@@ -20,6 +20,10 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/project
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/tables/protos/Table.proto"
 
 WorldInfo {
+  info [
+    "Simple simulation of a TIAGo robot navigating in an hospital room"
+  ]
+  title "TIAGo navigation"
 }
 Viewpoint {
   orientation -0.27560060515475726 -0.09065370871143699 0.956988093726977 3.7515306032703197
