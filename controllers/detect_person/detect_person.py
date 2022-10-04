@@ -7,8 +7,8 @@
 import sys
 sys.path.append("./src/")
 
-from src.opendr.perception.object_detection_2d import YOLOv3DetectorLearner
-from src.opendr.engine.datasets import ExternalDataset
+from opendr.perception.object_detection_2d import YOLOv3DetectorLearner
+from opendr.engine.datasets import ExternalDataset
 from controller import Robot
 
 # create the Robot instance.
