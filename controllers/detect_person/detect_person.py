@@ -2,7 +2,6 @@
 
 # You may need to import some classes of the controller module. Ex:
 #  from controller import Robot, Motor, DistanceSensor
-import opendr
 from controller import Robot
 
 # create the Robot instance.
