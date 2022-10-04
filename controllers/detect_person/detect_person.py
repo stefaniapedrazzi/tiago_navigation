@@ -1,9 +1,14 @@
+#!/usr/local/opendr/venv/bin/python3
 """detect_person controller."""
 
 # You may need to import some classes of the controller module. Ex:
 #  from controller import Robot, Motor, DistanceSensor
-from opendr.perception.object_detection_2d import YOLOv3DetectorLearner
-from opendr.engine.datasets import ExternalDataset
+
+import sys
+sys.path.append("./src/")
+
+from src.opendr.perception.object_detection_2d import YOLOv3DetectorLearner
+from src.opendr.engine.datasets import ExternalDataset
 from controller import Robot
 
 # create the Robot instance.
