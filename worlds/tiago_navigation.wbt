@@ -245,4 +245,5 @@ Transform {
 TiagoIron {
   translation 0.203717 -1.47844 0.095
   rotation 0 0 1 1.5708
+  controller "detect_person"
 }
